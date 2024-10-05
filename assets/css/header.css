@@ -1,0 +1,231 @@
+nav.flex {
+  justify-content: space-between;
+  padding-inline: 10px;
+  padding-top: 1.2rem;
+}
+
+nav.flex .logo {
+  margin-inline: 0.8rem;
+  border: 1px solid var(--bodyFont);
+  padding: 0.44rem;
+  border-radius: 55px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--red-button);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+nav.flex .logo:hover {
+  background-color: var(--bodyFont);
+  color: var(--blue);
+}
+
+nav.flex ul li {
+  margin-inline: 1rem;
+  border: 1px solid var(--bodyFont);
+  padding: 0.44rem;
+  border-radius: 55px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  
+}
+
+nav.flex ul li:hover {
+  background-color: var(--bodyFont);
+  color: var(--blue);
+}
+
+div.top-img {
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  height: 100dvh;
+  background-image: url(../image/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (width < 1000px) {
+  div.top-img {
+    background-position: left;
+  }
+}
+
+section.content {
+  font-size: 2rem;
+  position: absolute;
+  top: 45%;
+  margin-left: 30%;
+
+  & .lifestyle{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    color: #000;
+    font-weight: bold;
+  }
+
+  & .men{
+    margin-top: 0.7rem;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+  }
+
+  & .btn{
+    font-size: 20px;
+    background-color: brown;
+    color: #f8f6f6;
+    border-radius: 15px;
+    margin-top: 0.9rem;
+    padding: 0.6rem 1.6rem;
+    
+  }
+
+  & .btn1{
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    margin-top: 0.9rem;
+    padding: 0.6rem 1.6rem;
+  }
+}
+
+h2{
+  color: #000;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .texts p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: capitalize;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+img{
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.pertne{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img{
+  margin-left: 25px;
+}
+
+ p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-right: 30px;
+}
+
+.card{
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  width: 25rem;
+  
+  
+
+}
+
+.card:hover{
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.descripyion{
+  padding: 2px 16px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 40px;
+  margin-left: 12px;
+}
+
+.image-container{
+  width:100%;
+  height: 20rem;
+}
+
+h2{
+  color: #f8f6f6;
+  font-weight: 900;
+}
+
+.right{
+  background-image: url(../image/contact\ us.gif);
+  text-align: center;
+  height: 200px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.header-button{
+  background-color: black;
+  color: #f3efef;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.here{
+  background-image: url(../image/beautiful-color-ui-gradients-backgrounds-virgin-america.png);
+  text-align: center;
+  height: 150px;
+  background-position: center;
+  
+}
+
+h3{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: var(--red-button);
+  color: var(--bodyFont);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
